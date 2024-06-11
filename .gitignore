@@ -1,0 +1,33 @@
+# Ignore Next.js build output directory
+.next/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore package-lock.json file
+package-lock.json
+
+# Ignore TypeScript configuration file
+tsconfig.json
+
+# Ignore ESLint configuration file
+.eslintrc.json
+
+# Ignore PostCSS configuration file
+postcss.config.mjs
+
+# Ignore Tailwind CSS configuration file
+tailwind.config.ts
+
+# Ignore Next.js environment file
+next-env.d.ts
+
+# Ignore Next.js configuration file
+next.config.mjs
+
+# Ignore Package.json file
+package.json
+
+# Ignore any other files or directories you want to exclude
+# Add additional lines here if needed
+
