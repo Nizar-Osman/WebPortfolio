@@ -1,16 +1,12 @@
 import Image from "next/image";
-import Link from "next/link";
-import ProductCard from "./components/ProductCard";
+import {Button} from '@nextui-org/button';
 
 export default function Home() {
   return (
     <main>
-      <h1>
-        Hello, World! Its me, Nizar!
-      </h1>
-      <Link href="/users">Users</Link>
-      <ProductCard/>
+       <div>
+      <Button>Click me</Button>
+    </div>
     </main>
-    
   );
 }
