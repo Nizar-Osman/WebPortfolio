@@ -3,9 +3,9 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nex
 
 function Header() {
   return (
-    <Navbar>
+    <Navbar shouldHideOnScroll>
       <NavbarBrand>
-        <p className="font-bold text-inherit">UNIQUE</p>
+        <p className="font-bold text-inherit">Nizahr Osman</p>
       </NavbarBrand>
       <NavbarContent justify="center">
         <NavbarItem>
@@ -33,6 +33,8 @@ function Header() {
       </NavbarContent>
     </Navbar>
   );
+
+  <img src="" alt="hero" className="w-full h-96 object-cover" />;
 }
 
 export default Header;
