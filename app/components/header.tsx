@@ -5,32 +5,29 @@ function Header() {
   return (
     <Navbar>
       <NavbarBrand>
-        <p className="font-bold text-inherit">Unique</p>
+        <p className="font-bold text-inherit">UNIQUE</p>
       </NavbarBrand>
       <NavbarContent justify="center">
         <NavbarItem>
-          <Link color="secondary" href="#">
-            Features
+          <Link color="primary" href="#">
+            About Me
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
           <Link href="#" aria-current="page">
-            Customers
+            Portfolio
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="secondary" href="#">
-            Integrations
+          <Link color="primary" href="#">
+            Resume
           </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        <NavbarItem >
-          <Link href="#">Login</Link>
-        </NavbarItem>
         <NavbarItem>
           <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
+            Contact
           </Button>
         </NavbarItem>
       </NavbarContent>
