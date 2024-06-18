@@ -7,9 +7,9 @@ function Header() {
       <NavbarBrand>
         <p className="font-bold text-inherit">Unique</p>
       </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      <NavbarContent justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="secondary" href="#">
             Features
           </Link>
         </NavbarItem>
@@ -19,13 +19,13 @@ function Header() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="secondary" href="#">
             Integrations
           </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
+        <NavbarItem >
           <Link href="#">Login</Link>
         </NavbarItem>
         <NavbarItem>
