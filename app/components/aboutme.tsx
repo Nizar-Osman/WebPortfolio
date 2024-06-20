@@ -1,9 +1,10 @@
 import React from 'react'
+import styles from './AboutMe.module.css'
 
 function About() {
   return (
-    <section>
-            <h2 className="about-me-title">About Me</h2>
+    <section className={styles.body}>
+            <h2>About Me</h2>
             <p className="about-me-p"> I am a self-taught developer with a passion for creating beautiful, interactive websites.
               I started my journey with the fundamentals of HTML, CSS, and JavaScript, through the odin Project.
               I have 2 certifications in web development from freeCodeCamp ; Repsonsive Web Design and Datastructures and Algorithms.
