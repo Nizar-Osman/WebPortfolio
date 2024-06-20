@@ -3,7 +3,7 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nex
 
 function Header() {
   return (
-    <Navbar shouldHideOnScroll>
+    <Navbar>
       <NavbarBrand>
         <p className="font-bold text-inherit">Nizahr Osman</p>
       </NavbarBrand>
