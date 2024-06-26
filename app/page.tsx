@@ -8,8 +8,9 @@ export default function Home() {
       <Header />
         <main>
           <img className="hero-img" src="https://picsum.photos/200/300" />
-          <h1 className="hero-title"> Aspiring React Developer</h1>
-          <p className="hero-p"> Specializing In Frontend Creativity & -InteREACTivity</p>
+          <h1 className="hero-title"> Express Your Brand Through Prestige & Function</h1>
+          <p className="hero-p">We Specialize In Custom interactive application development. SAAS integration that will set you apart from the competition.
+          </p>
         </main>
       <About />
       

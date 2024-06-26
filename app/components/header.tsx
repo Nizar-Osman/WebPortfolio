@@ -5,7 +5,7 @@ function Header() {
   return (
     <Navbar>
       <NavbarBrand>
-        <p className="font-bold text-inherit">Nizahr Osman</p>
+        <p className="font-bold text-inherit">Unique</p>
       </NavbarBrand>
       <NavbarContent justify="center">
         <NavbarItem>
