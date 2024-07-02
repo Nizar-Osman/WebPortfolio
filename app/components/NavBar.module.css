@@ -9,10 +9,7 @@
 
 .a { 
     font-family: 'Arial';
-    text-decoration: none;
     padding: 15px;
-    display: block;
-    text-align: center;
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 
 }
@@ -23,6 +20,12 @@
 }
 
 .li {
-   
-    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+
+    
+    
 }

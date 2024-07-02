@@ -5,8 +5,8 @@ const NavBar = () => {
   return (
     <div>
         
-        <nav className={style.NavBar}>
-            <ul className={style.ul}>
+        <nav className='flex justify-center mx-auto w-full h-16'>
+            <ul className='flex space-x-4 p-4' >
             <li className={style.li}>
                 <a className={style.a} href="#hero">Home</a>
             </li>
