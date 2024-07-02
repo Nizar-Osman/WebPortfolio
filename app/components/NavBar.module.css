@@ -1,3 +1,5 @@
+
+
 .ul{
     list-style: none;
     padding: 0;
@@ -6,17 +8,21 @@
 }
 
 .a { 
+    font-family: 'Arial';
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 
 }
 
 .a:hover {
-    color: purple;
+    color: #4a5568;
+    transform: scale(1.1);
 }
 
 .li {
+   
     float: right;
 }
