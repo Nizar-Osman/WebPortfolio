@@ -1,6 +1,4 @@
 .img {
-    width: 75%;
-    height: 5%;
     object-fit: cover;
     object-position: center;
     border: 2px solid var(--color-primary);
@@ -16,7 +14,7 @@
 
 }
 .p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 300;
     margin-top: 1rem;
     color: var(--color-primary);

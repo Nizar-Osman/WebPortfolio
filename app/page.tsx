@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Header from "./components/Header";
+import Navbar from "./components/NavBar";
 import About from "./components/AboutMe";
 import Hero from "./components/Hero";
 
 export default function Home() {
   return (
     <>
-      <Header />
+      <Navbar />
       <Hero />
       <About />
       
