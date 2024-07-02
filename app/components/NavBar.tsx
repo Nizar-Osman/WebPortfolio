@@ -4,22 +4,24 @@ import style from './NavBar.module.css'
 const NavBar = () => {
   return (
     <div>
-        <nav>
+        
+        <nav className={style.NavBar}>
             <ul>
-            <li>
-                <a href="#hero">Home</a>
+            <li className={style.li}>
+                <a className={style.a} href="#hero">Home</a>
             </li>
-            <li>
-                <a href="#about">About</a>
+            <li className={style.li} >
+                <a className={style.a} href="#about">About</a>
             </li>
-            <li>
-                <a href="#portfolio">Portfolio</a>
+            <li className={style.li}>
+                <a className={style.a} href="#portfolio">Portfolio</a>
             </li>
-            <li>
-                <a href="#resume">Resume</a>
+            <li className={style.li}>
+                <a className={style.a} href="#resume">Resume</a>
             </li>
             </ul>
         </nav>
+    
     </div>
   )
 }
