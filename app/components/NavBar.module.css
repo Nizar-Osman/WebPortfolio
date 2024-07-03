@@ -8,14 +8,16 @@
 }
 
 .a { 
-    font-family: 'Arial';
+    font-family: 'Inter' , sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
     padding: 15px;
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 
 }
 
 .a:hover {
-    color: #4a5568;
+    color: #c0c0c0;
     transform: scale(1.1);
 }
 
